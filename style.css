@@ -1,0 +1,101 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@artemudovichenko90 
+freshjsftm
+/
+fm_dom_30_05
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+fm_dom_30_05/assets/css/style.css
+@freshjsftm
+freshjsftm Fix bugs cards
+Latest commit 37065f3 4 days ago
+ History
+ 1 contributor
+60 lines (60 sloc)  1.02 KB
+  
+:root{
+  font-size: 16px;
+  text-align: center;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul{
+  list-style: none;
+}
+.cards-container{
+  max-width: 1100px;
+  margin: auto;
+}
+.cards-list{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.card-wrapper{
+  margin: 2rem 0;
+  border: 2px solid #ddd;
+}
+.card-container{
+  width: 200px; /*--------------*/
+  display: flex;
+  flex-direction: column;
+}
+.card-photo-wrapper{
+  width: inherit;/*--------------*/
+  height: 250px;/*--------------*/
+  position: relative;/*--------------*/
+}
+.card-initials{
+  width: inherit;/*--------------*/
+  height: inherit;/*--------------*/
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  /* background-color: #000; */
+  color: #fff;
+  font-size: 4rem;
+}
+.card-photo{
+  width: inherit;/*--------------*/
+  height: inherit;/*--------------*/
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+  object-position: top;
+}
+.card-fullname,
+.card-description{
+  margin: 1rem 0;
+}
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
